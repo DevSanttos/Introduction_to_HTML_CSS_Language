@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abra essa imagem em vários dispositivos ou somente diminua/aumente o tamanho da aba do seu navegador</p>
+    <picture>
+        <source media="(max-width: 725px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
