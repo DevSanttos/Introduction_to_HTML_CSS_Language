@@ -1,0 +1,34 @@
+/*Seletore personalizados
+# = id
+. = class
+: = PseudoClasses
+:: = PseudoElementos
+> = Child
+*/
+
+#TituloPrincipal {
+    background-color: rgb(202, 224, 159);
+}
+
+.TituloSecundario {
+    background-color: bisque;
+}
+
+.Paragrafos {
+    background-color: azure;
+}
+
+div {
+    display: inline-flex;
+    background-color: gray;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: black;
+
+}
+
+div:hover {
+    color: white;   
+    background-color: yellow;
+}
