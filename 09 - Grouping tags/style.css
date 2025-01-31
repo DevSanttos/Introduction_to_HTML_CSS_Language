@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(179, 171, 171);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#cabecalho {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+
+#cabecalho > h1:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#barraNavegacao {
+    background-color: rgb(228, 59, 59);
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+nav > a {
+    text-decoration: none;
+    padding-inline: 40px;
+}
+
+.allSections {
+    background-color: rgb(173, 173, 240);
+    padding: 10px;
+    margin: 20px;
+}
+
+.allSections > article {
+    color: white;
+    background-color: rgb(51, 47, 47);
+    margin: 10px;
+    padding: 1px;
+}
+
+nav > a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#mainCentral {
+    background-color: white;
+    margin: 20px 10px 20px 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#rodape {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+    margin: 10px;
+}
+
